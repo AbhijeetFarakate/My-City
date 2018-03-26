@@ -25,7 +25,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    protected String apiURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=18.498072,73.8328396&radius=1000&key=AIzaSyA78PaOND-Yoshet42MzYFN7yGt6YWE-x4&types=";
+    // In apiURL place your own API key
+    protected String apiURL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=18.498072,73.8328396&radius=1000&key=****REPLACE-WITH-YOUR-OWN-KEY***&types=";
 
     protected static Integer[] mainViewimg = {R.drawable.travel,R.drawable.food,R.drawable.shopping};
     protected static final int [] iconImg = {R.drawable.clothing,R.drawable.diamond,R.drawable.graduate,R.drawable.medicine,R.drawable.pills,
